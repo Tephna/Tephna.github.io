@@ -46,79 +46,22 @@
 #main{
 	background-image: url(Картинки/Небо.png);
 }
-#mainm1 {
+#mainm {
 	color: white;
 	text-decoration:none;
 }
 
-#mainm1:active {
+#mainm:active {
 	color:  white;
 	text-decoration: none;
 }
 
-#mainm1:visited {
+#mainm:visited {
 	color: white;
 	text-decoration: none;
 }
 
-#mainm1:hover {
-	color: white;
-	text-decoration: none;
-}
-#mainm2 {
-	color: white;
-	text-decoration:none;
-}
-
-#mainm2:active {
-	color:  white;
-	text-decoration: none;
-}
-
-#mainm2:visited {
-	color: white;
-	text-decoration: none;
-}
-
-#mainm2:hover {
-	color: white;
-	text-decoration: none;
-}
-#mainm3 {
-	color: white;
-	text-decoration:none;
-}
-
-#mainm3:active {
-	color:  white;
-	text-decoration: none;
-}
-
-#mainm3:visited {
-	color: white;
-	text-decoration: none;
-}
-
-#mainm3:hover {
-	color: white;
-	text-decoration: none;
-}
-#mainm4 {
-	color: white;
-	text-decoration:none;
-}
-
-#mainm4:active {
-	color:  white;
-	text-decoration: none;
-}
-
-#mainm4:visited {
-	color: white;
-	text-decoration: none;
-}
-
-#mainm4:hover {
+#mainm:hover {
 	color: white;
 	text-decoration: none;
 }
