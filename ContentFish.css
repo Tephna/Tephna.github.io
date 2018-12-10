@@ -1,0 +1,41 @@
+#title{
+	background-color: black;
+	font-family: Сomic Sans MS, cursive; 
+    font-size: 100pt;
+	color: white;
+}
+#finish{
+	background-color: black;
+	font-family: Сomic Sans MS, cursive; 
+    font-size: 20pt;
+}
+#first{
+	font-family: Сomic Sans MS, cursive; 
+    font-size: 20pt;
+}
+
+#main{
+	background-image: url(Картинки/Черные_рыбы.jpg);
+}
+
+#cont{
+	background-color: white;
+	opacity: 0.9;
+}
+
+.back{
+	font-size: 25pt;
+	text-decoration: none;
+	transition: 1s;
+	color: white;
+}
+.back:hover{
+	border-bottom: 5px solid #79553d;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: Сomic Sans MS, cursive; 
+    font-size: 20pt;
+}

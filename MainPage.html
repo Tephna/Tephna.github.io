@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="SMainPage.css">
+<title>Курсовое проектирование</title>
+</head>
+	<style>
+	@media screen and (max-width: 480px) {
+ 
+   #title {
+      font-size: 10px;
+      padding: 10px 8px;
+	  
+   }
+		#mainm {
+      font-size: 50px;
+      padding: 10px 8px;
+	  
+   }
+}
+		@media screen and (max-width: 650px) {
+   
+   #title {
+      font-size: 50px;
+      padding: 7px 8px;
+   }
+			 #mainm {
+      font-size: 70px;
+      padding: 7px 8px;
+	 
+   }
+}
+		@media screen and (max-width: 900px) {
+   
+   #title {
+      font-size: 80px;
+      padding: 5px 8px;
+   }
+			 #mainm {
+      font-size: 70px;
+      padding: 5px 8px;
+	 
+   }
+}
+		@media screen and (max-width: 1200px) {
+   
+   #title {
+      font-size: 80px;
+      padding: 5px 8px;
+   }
+			 #mainm {
+      font-size: 70px;
+      padding: 5px 8px;
+	 
+   }
+}
+	</style>
+<body> <div>
+<div id = "title" align="center"><div align="center"><img src="Картинки/Без имени-1.png"> Животный мир <div align="right" id="clock">
+	<script>
+		window.onload = function(){
+	window.setInterval(function(){
+		var now = new Date();
+		var clock = document.getElementById("clock");
+		clock.innerHTML = now.toLocaleTimeString();
+	}, 1000);
+	};
+	</script>
+	</div></div></div>
+	<div id="start1" align="center"><a class="effect-shine" id="mainm" href="Насекомые.html">Насекомые</a></div> 
+	<div id="start2" align="center"><a class="effect-shine" id="mainm" href="Рыбы.html">Рыбы</a></div>
+	<div id="start3" align="center"><a class="effect-shine" id="mainm" href="Звери.html">Млекопитающие</a></div>
+	<div id="start4" align="center"><a class="effect-shine" id="mainm" href="Птицы.html">Птицы</a></div>
+<div id = "finish"><font color=black align=center><a class="back" href="Обратная_связь.html"><b>Обратная связь</b></a><br> @Сайт разработала Колесник Яна <br> 2 курс, 8 группа</font></div>
+	</div>
+</body>
+</html>
